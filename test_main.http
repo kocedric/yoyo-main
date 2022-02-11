@@ -1,0 +1,26 @@
+# git push https://github.com/benmatrood/Yolo_mobil_app.git dev
+# uvicorn main:app --reload
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/yoyo/{{service}}
+Accept: application/json
+
+###
+### Request Example
+# curl -X 'POST'
+#  'http://127.0.0.1:800/yoyo/'
+#  -H 'accept: application/json'
+#  -H 'Content-Type: application/json'
+#  -d '{
+#  "texts": "souscription de pass appel de 300"
+#}'
+
+
+###
+
+
